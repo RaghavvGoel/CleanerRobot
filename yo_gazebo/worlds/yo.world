@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  <!--  <include>
+      <uri>model://create</uri>
+    </include> --> 
+
+ <!-- <model name="create">
+      <link name="front_bumper">
+        <pose>0 0 0.047800 0 0 0</pose>
+
+        <collision name="bumper_collision">
+<geometry>
+	<cylinder>
+			<radius>0.016495</radius>
+			<length>0.061163</length>
+	</cylinder>
+</geometry>
+        </collision>
+
+        <visual name="bumper_visual">
+				<pose>0 0 0.047800 0 0 0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://create/meshes/bumper.dae</uri>
+					</mesh>
+				</geometry>
+			</visual>
+        <sensor name='bumper_contact_sensor' type='contact'>
+          <contact>
+            <collision>bumper_collision</collision>
+          </contact>
+        </sensor>
+      </link>
+    </model>  -->
+  </world>
+</sdf>
+
